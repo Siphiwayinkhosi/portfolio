@@ -8,7 +8,7 @@ const allItems = [
     img: "heritage.png",
     Description:
       "A visually stunning portfolio website for a hair dresser which is fully responsive.",
-    link: "https://portfolio-website.vercel.app",
+    link: "https://gugu-portfolio-xi.vercel.app/",
   },
   {
     id: 3,
