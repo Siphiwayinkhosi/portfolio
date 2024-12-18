@@ -56,7 +56,7 @@ export const Navbar = () => {
         </div>
 
         {/* Right Section: Social Media Icons */}
-        <div className="flex items-center space-x-4">
+        <div className="hidden md:flex items-center space-x-4">
           <a
             href="https://twitter.com"
             target="_blank"
@@ -101,20 +101,21 @@ export const Navbar = () => {
               className="hover:text-red-600 transition-transform transform hover:scale-110"
             />
           </a>
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-white hover:text-orange-500"
-          >
-            <FaBars size={24} />
-          </button>
         </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="md:hidden text-white hover:text-orange-500"
+        >
+          <FaBars size={24} />
+        </button>
       </div>
 
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-black bg-opacity-75 backdrop-blur-md absolute top-full left-0 w-full p-4 flex flex-col space-y-4 z-40">
+          {/* Navigation Links */}
           <Link
             to="home"
             smooth={true}
@@ -151,6 +152,54 @@ export const Navbar = () => {
           >
             Contact
           </Link>
+
+          {/* Social Media Icons */}
+          <div className="flex items-center justify-center space-x-4 mt-4">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter"
+            >
+              <FaTwitter
+                size={24}
+                className="hover:text-blue-400 transition-transform transform hover:scale-110"
+              />
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <FaFacebook
+                size={24}
+                className="hover:text-blue-600 transition-transform transform hover:scale-110"
+              />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <FaInstagram
+                size={24}
+                className="hover:text-pink-500 transition-transform transform hover:scale-110"
+              />
+            </a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+            >
+              <FaYoutube
+                size={24}
+                className="hover:text-red-600 transition-transform transform hover:scale-110"
+              />
+            </a>
+          </div>
         </div>
       )}
     </div>
