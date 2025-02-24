@@ -4,18 +4,18 @@ import { motion, useScroll, useSpring } from "framer-motion";
 const allItems = [
   {
     id: 2,
-    title: "Portfolio Website",
-    img: "heritage.png",
+    title: "Marketing Agency Landing Page",
+    img: "21.png",
     Description:
-      "A visually stunning portfolio website for a hair dresser which is fully responsive.",
-    link: "https://gugu-portfolio-xi.vercel.app/",
+      "A visually stunning landing page for an advertising company.",
+    link: "https://21-comments.vercel.app/",
   },
   {
     id: 3,
-    title: "Marketing Agency Landing Page",
-    img: "sbuko.png",
-    Description: "An elegant landing page crafted for a marketing agency.Its responsive for desktop view",
-    link: "https://sbuko-acres.vercel.app/",
+    title: "Mzomba auto parts",
+    img: "mzomba.png",
+    Description: "An elegant landing page crafted for mzomba auto , a automotive parts store",
+    link: "https://mzomba.vercel.app//",
   },
   {
     id: 4,
