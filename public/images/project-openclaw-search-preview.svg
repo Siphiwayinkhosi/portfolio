@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">OpenClaw Canva search automation preview</title>
+  <desc id="desc">A Telegram automation message returning Canva design search results and URLs.</desc>
+  <rect width="900" height="520" fill="#08060d"/>
+  <g opacity="0.16" stroke="#9333ea" fill="none">
+    <path d="M0 90c80-40 150-38 230 4M604 44c64-25 136-16 210 28M80 440c84-34 166-28 244 18M640 450c72-48 150-42 232-2"/>
+    <circle cx="730" cy="210" r="88"/><circle cx="180" cy="220" r="56"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="308" y="22" width="500" height="60" rx="16" fill="#6d5bd0"/>
+    <text x="332" y="50" fill="#fff" font-size="15">find any Canva design with highest in the title</text>
+    <text x="332" y="69" fill="#e9ddff" font-size="14">and tell me the view URL</text>
+    <rect x="116" y="96" width="492" height="358" rx="18" fill="#242424"/>
+    <text x="142" y="128" fill="#fff" font-size="16" font-weight="800">I found 2 matches:</text>
+    <text x="142" y="168" fill="#fff" font-size="15" font-weight="800">Auf dem Hoechsten</text>
+    <text x="142" y="190" fill="#a78bfa" font-size="14">https://www.canva.com/api/design/...</text>
+    <text x="142" y="214" fill="#a78bfa" font-size="14">view?utm_source=OpenClaw</text>
+    <text x="142" y="258" fill="#fff" font-size="15" font-weight="800">Auf dem Hoechsten REEL</text>
+    <text x="142" y="280" fill="#a78bfa" font-size="14">https://www.canva.com/api/design/...</text>
+    <text x="142" y="304" fill="#a78bfa" font-size="14">view?utm_campaign=automation</text>
+    <text x="142" y="350" fill="#d1d5db" font-size="14">I can also export one of them.</text>
+    <rect x="142" y="374" width="430" height="58" rx="10" fill="#1f3d2a"/>
+    <text x="162" y="398" fill="#86efac" font-size="14" font-weight="900">Canva</text>
+    <text x="162" y="418" fill="#fff" font-size="14">Login to access and create your next design.</text>
+    <rect x="660" y="148" width="154" height="154" rx="24" fill="#22c3ff"/>
+    <text x="684" y="230" fill="#fff" font-size="36" font-family="Georgia, serif" font-weight="900">Canva</text>
+  </g>
+</svg>

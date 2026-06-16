@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#f6a53a" stop-opacity=".28"/>
+      <stop offset=".55" stop-color="#f6a53a" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#080807" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#f4f1e9" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#080807"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="80" y="74" width="52" height="52" rx="12" fill="none" stroke="#f6a53a" stroke-width="2" transform="rotate(45 106 100)"/>
+  <text x="106" y="106" fill="#f4f1e9" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">SM</text>
+  <text x="80" y="265" fill="#f4f1e9" font-family="Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-4">Siphiwayinkhosi</text>
+  <text x="80" y="347" fill="#f4f1e9" fill-opacity=".62" font-family="Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-4">Mahlalela.</text>
+  <text x="84" y="420" fill="#f6a53a" font-family="Arial, sans-serif" font-size="24" font-weight="600">Software Engineer · Web Developer · AI Automation Builder</text>
+  <text x="84" y="500" fill="#aaa79e" font-family="Arial, sans-serif" font-size="20">Building useful digital products from Eswatini.</text>
+  <line x1="80" y1="553" x2="1120" y2="553" stroke="#f4f1e9" stroke-opacity=".14"/>
+</svg>
