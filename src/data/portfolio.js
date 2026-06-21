@@ -103,7 +103,7 @@ export const projects = [
       alt: "Preview of the Mtseku Transport Services website",
     },
     links: {
-      live: "https://mtseku.vercel.app/",
+      live: "https://www.mtsekutransport.co.za/",
     },
   },
   {
